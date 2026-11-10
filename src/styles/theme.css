@@ -1,0 +1,20 @@
+:root {
+  --bg: #f2f2f2;
+  --white: #ffffff;
+  --ink: #000000;
+  --yellow: #f7d30b;
+  --orange: #ec3b05;
+  --purple: #8b2ff0;
+  --font: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--ink);
+}
